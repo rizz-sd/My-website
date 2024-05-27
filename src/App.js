@@ -10,6 +10,7 @@ export default function App() {
       <Sidebar_nav />
       <header className="App-header">
         <p>
+          <div> WORK IN PROGRESS</div>
           <img className='image' src={require('./resources/Peeking.jpg')}></img>
           <div>Hi! I am Ritika Agrawal.</div>
         </p>
