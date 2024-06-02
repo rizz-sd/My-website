@@ -1,0 +1,26 @@
+ul.main-nav {
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s all;
+  }
+  ul.main-nav li {
+    display: inline-block;
+  }
+  ul.main-nav li a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+  }
+  ul.main-nav li a:hover {
+    color: #ffbe61;
+  }
+  ul.main-nav.show-it {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .25s;
+  }
