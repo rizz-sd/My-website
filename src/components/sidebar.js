@@ -13,7 +13,6 @@ export default function Sidebar_nav() {
             </div>
           </SubMenu>
           <MenuItem className='Sidebar_menu'> My Aspiration </MenuItem>
-          <MenuItem className='Sidebar_menu'> Contact Me </MenuItem>
         </Menu>
       </Sidebar>
     );

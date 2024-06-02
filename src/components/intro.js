@@ -5,7 +5,8 @@ export default function Intro() {
         background: "url('/my-website/assets/wall_p.jpg')",
         backgroundRepeat: "no-repeat",
         height: "900px",
-        marginTop: "-11%"
+        marginTop: "-11%",
+        fontFamily: "Calibri",
     }
     const backG = {
         background: "url('/my-website/assets/my_intro.png')",
@@ -28,7 +29,6 @@ export default function Intro() {
         lineHeight: "1.4em",
         color: "#FFFFFF",
         marginLeft: "70px",
-        fontFamily: "Calibri",
         background: "-webkit-linear-gradient(to bottom right, #000066, #00CCFF)",
         webkitBackgroundClip: "text",
         position: "absolute",
@@ -50,6 +50,15 @@ export default function Intro() {
         top: "0",
         right: "5%",
         fontSize: "1.5em",
+        listStyleType: "none",
+        display: "flex"
+    };
+
+    const img_style = {
+        maxHeight: "70px",
+        display: "inline-block",
+        padding: "5px",
+        opacity: "0.8",
     };
 
     return (
@@ -58,9 +67,9 @@ export default function Intro() {
             <div style={backG}></div>
             <header1 style={textStyle}><p>Hi! I am Ritika Agrawal</p><p style={subtext}>A Software Developer</p></header1>
             <ul style={ul}>
-              <p>Join me here</p>
-              <li><a href="https://www.linkedin.com/in/ms-ritika-agrawal/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://github.com/rizz-sd" target="_blank">Github</a></li>
+              <p>Let's connect - </p>
+              <li><a href="https://www.linkedin.com/in/ms-ritika-agrawal/" target="_blank"><img style={img_style} src="/my-website/assets/linkedin_logo.png"></img></a></li>
+              <li><a href="https://github.com/rizz-sd" target="_blank"><img style={img_style} src="/my-website/assets/github.png"></img></a></li>
             </ul>
         </div>
         </>
