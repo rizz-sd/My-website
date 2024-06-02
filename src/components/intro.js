@@ -2,14 +2,13 @@ import React, { Component } from "react";
 
 export default function Intro() {
     const basic = {
-        background: "url('/assets/wall_p.jpg')",
+        background: "url('/my-website/assets/wall_p.jpg')",
         backgroundRepeat: "no-repeat",
         height: "900px",
-        display: "block",
         marginTop: "-11%"
     }
     const backG = {
-        background: "url('/assets/my_intro.png')",
+        background: "url('/my-website/assets/my_intro.png')",
         height: "200px",
         backgroundRepeat: "no-repeat",
         width: "200px",
