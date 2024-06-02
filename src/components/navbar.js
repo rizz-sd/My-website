@@ -1,9 +1,24 @@
-import '../App.css';
+
+import { Menubar } from 'primereact/menubar';
+import 'primereact/resources/themes/lara-dark-indigo/theme.css';
 
 
 export default function Navbar() {
-    return (
+    const items = [
+        {
+        label: "Home",
+    },
+    {
+        label: "About Me"
+    },
+    {
+        label: "Contact Me"
+    }
 
-        <div className='Navigation_bar'>Random</div>
+    ];
+    return (
+        <div>
+            <Menubar model={items} />
+        </div>
     );
 }
